@@ -2,8 +2,8 @@
 
 ### Project will use:
 
-Blockchain - Polygon (with optional RPC provider)</br>
-Ethereum development environment - Hardhat</br>
+Blockchain - Polygon (with optional RPC provider)<br>
+Ethereum development environment - Hardhat<br>
 Front end framework - Next.js & React<br>
 Ethereum web client library - Ethers.js<br>
 File storage - IPFS<br>
@@ -30,22 +30,22 @@ We suggest that you begin by typing:
   
   `cd web3-blog`
   
-`npm install ethers hardhat @nomiclabs/hardhat-waffle` </br>
-`ethereum-waffle chai @nomiclabs/hardhat-ethers` </br>
-`web3modal @walletconnect/web3-provider` </br>
-`easymde react-markdown react-simplemde-editor` </br>
-`ipfs-http-client @emotion/css @openzeppelin/contracts` </br>
+`npm install ethers hardhat @nomiclabs/hardhat-waffle` <br>
+`ethereum-waffle chai @nomiclabs/hardhat-ethers` <br>
+`web3modal @walletconnect/web3-provider` <br>
+`easymde react-markdown react-simplemde-editor` <br>
+`ipfs-http-client @emotion/css @openzeppelin/contracts` <br>
 
-hardhat - Ethereum development environment</br>
-web3modal - An easy-to-use library that allows users to connect their wallets to your app</br>
-react-markdown and simplemde - Markdown editor and markdown renderer for the CMS</br>
-@emotion/css - A great CSS in JS library</br>
-@openzeppelin/contracts - Open source implementations of useful smart contract standards and functionality</br>
+hardhat - Ethereum development environment<br>
+web3modal - An easy-to-use library that allows users to connect their wallets to your app<br>
+react-markdown and simplemde - Markdown editor and markdown renderer for the CMS<br>
+@emotion/css - A great CSS in JS library<br>
+@openzeppelin/contracts - Open source implementations of useful smart contract standards and functionality<br>
 
 `npx hardhat`
 
-`? What do you want to do? Create a basic sample project`</br>
-`? Hardhat project root: <Choose default path>`</br>
+`? What do you want to do? Create a basic sample project`<br>
+`? Hardhat project root: <Choose default path>`<br>
 
 `npx hardhat test`
 
@@ -85,9 +85,9 @@ Private Key: 0x5de4111afa1a4b94908f83103eb1f1706367c2e68ca870fc3fb9a804cdab365a
 
 Create a new file named .env.local in the root of your project and add the following configuration to start with:
 
-ENVIRONMENT="local"</br>
-NEXT_PUBLIC_ENVIRONMENT="local"</br>
-(Use local, testnet, or mainnet)</br>
+ENVIRONMENT="local"<br>
+NEXT_PUBLIC_ENVIRONMENT="local"<br>
+(Use local, testnet, or mainnet)<br>
 https://nextjs.org/docs/basic-features/environment-variables
 
 
